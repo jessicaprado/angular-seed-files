@@ -17,7 +17,15 @@
 
     <link rel="stylesheet" type="text/css" href="appname/layout/assets/style/style.css">
 </head>
-<body>
+    <body ng-app="appname">
+    <div class="content">
+        <ui-view></ui-view>
+    </div>
+    
+    <script src="appname/appname.module.js"></script>
 
+    <script src="appname/features/feature1/feature.module.js"></script>
+    <script src="appname/features/feature1/feature.controller.js"></script>
+    <script src="appname/features/feature1/feature.routes.js"></script>
 </body>
 </html>
