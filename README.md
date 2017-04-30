@@ -9,12 +9,16 @@ app/
     appname/
         appname.module.js
         features/
-            feature1/
-                feature.controller.js
-                feature.html
-                feature.module
-                feature.routes.js
-            components
+            home/
+                home.controller.js
+                home.html
+                home.module.js
+                home.routes.js
+            components/
+                navbar/
+                    navbar.html
+                    navbar.module.js
+                    navbar.directive.js
         layout/
             assets/
                 images

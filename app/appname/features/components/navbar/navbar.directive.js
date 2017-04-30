@@ -19,13 +19,10 @@ function NavbarCtrl() {
     var vm = this;
 
     vm.navbarButtons = [{
-        title: 'Open Shifts',
-        link: 'openShifts'
+        title: 'Home',
+        link: 'home'
     }, {
-        title: 'Post Shifts',
-        link: 'postShifts'
-    }, {
-        title: 'My Shifts',
-        link: 'myShifts'
+        title: 'About',
+        link: 'about'
     }]
 }

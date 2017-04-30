@@ -1,8 +1,8 @@
 angular
     .module('appname.home')
-    .config(featureConfig);
+    .config(HomeConfig);
 
-function featureConfig($stateProvider) {
+function HomeConfig($stateProvider) {
     $stateProvider.state({
         name: 'home',
         url: '/',

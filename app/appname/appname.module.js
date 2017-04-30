@@ -4,7 +4,7 @@ angular
         'ui.router',
 
         //features
-        'appname.feature1',
+        'appname.home',
     ])
     .config(appConfig);
 
