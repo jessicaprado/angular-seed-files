@@ -14,7 +14,6 @@ app/
                 feature.html
                 feature.module
                 feature.routes.js
-            feature2
             components
         layout/
             assets/
