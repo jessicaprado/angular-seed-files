@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9ec4cd0-4d9c-4aa6-9f8f-cd18824d4cc0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/appname/layout/assets/style/scss/mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/appname/layout/assets/style/scss/reset.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/appname/layout/assets/style/scss/style.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/appname/layout/assets/style/scss/variables.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/appname/layout/assets/style/style.css" afterPath="$PROJECT_DIR$/app/appname/layout/assets/style/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +19,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state relative-caret-position="375">
+              <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -108,16 +112,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.module.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/appname/features/home/home.module.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="home.routes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/appname/features/home/home.routes.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -143,7 +137,6 @@
       <list>
         <option value="$PROJECT_DIR$/app/appname/layout/assets/style/style.css" />
         <option value="$PROJECT_DIR$/server.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/app/appname/features/feature1/feature.html" />
         <option value="$PROJECT_DIR$/app/appname/features/feature1/feature.controller.js" />
@@ -151,7 +144,6 @@
         <option value="$PROJECT_DIR$/app/appname/features/feature1/feature.routes.js" />
         <option value="$PROJECT_DIR$/app/appname/features/components/navbar/navbar.html" />
         <option value="$PROJECT_DIR$/app/appname/features/components/navbar/navbar.module.js" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/appname/appname.module.js" />
         <option value="$PROJECT_DIR$/app/appname/features/home/home.module.js" />
         <option value="$PROJECT_DIR$/app/appname/features/components/navbar/navbar.directive.js" />
@@ -160,6 +152,8 @@
         <option value="$PROJECT_DIR$/app/appname/features/home/home.html" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/appname/layout/assets/style/scss/reset.scss" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -825,12 +819,12 @@
       <option name="presentableId" value="Default" />
       <updated>1493506902221</updated>
       <workItem from="1493506905088" duration="3092000" />
-      <workItem from="1494352617855" duration="170000" />
+      <workItem from="1494352617855" duration="282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3262000" />
+    <option name="totallyTimeSpent" value="3374000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="32" y="421" width="1734" height="605" extended-state="0" />
@@ -974,13 +968,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1101,8 +1088,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        <state relative-caret-position="375">
+          <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
           <folding />
         </state>
       </provider>
