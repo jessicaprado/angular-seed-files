@@ -23,7 +23,13 @@ app/
             assets/
                 images
                 style/
-                    style.css
+                    scss/
+                        reset.scss
+                        variables.scss
+                        mixins.scss
+                        style.scss
+                    css/
+                        style.css
 .gitignore
 Procfile
 README.md
