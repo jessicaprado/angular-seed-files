@@ -1,0 +1,35 @@
+{
+  "name": "angular-seed-files",
+  "version": "1.0.0",
+  "description": "Wireframe for Angular Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessicaprado/angular-seed-files.git"
+  },
+  "author": "JMP",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jessicaprado/angular-seed-files/issues"
+  },
+  "homepage": "https://github.com/jessicaprado/angular-seed-files#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "gulp-css": "^0.1.0",
+    "gulp-uglify": "^2.1.2",
+    "jshint": "^2.9.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-jscs": "^4.0.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-sass": "^3.1.0",
+    "uglify": "^0.1.5"
+  }
+}

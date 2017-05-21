@@ -1,31 +1,35 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Angular Seed Project</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Angular Seed Project</title>
 
-    <!-- Latest AngularJS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.min.js"></script>
-    <!-- Latest compiled and minified CSS Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- Latest AngularJS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Latest compiled and minified CSS Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="appname/layout/assets/style/style.css">
-</head>
+        <link rel="stylesheet" type="text/css" href="appname/layout/assets/style/css/style.css">
+    </head>
     <body ng-app="appname">
-    <div class="content">
-        <ui-view></ui-view>
-    </div>
+        <div class="content">
+            <ui-view></ui-view>
+        </div>
 
-    <script src="appname/appname.module.js"></script>
+        <script src="appname/appname.module.js"></script>
 
-    <script src="appname/features/feature1/feature.module.js"></script>
-    <script src="appname/features/feature1/feature.controller.js"></script>
-    <script src="appname/features/feature1/feature.routes.js"></script>
-</body>
+        <script src="appname/features/home/home.module.js"></script>
+        <script src="appname/features/home/home.controller.js"></script>
+        <script src="appname/features/home/home.routes.js"></script>
+
+        <script src="appname/features/components/navbar/navbar.module.js"></script>
+        <script src="appname/features/components/navbar/navbar.directive.js"></script>
+    </body>
 </html>
