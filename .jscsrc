@@ -1,0 +1,53 @@
+{
+   "requireCommaBeforeLineBreak": true,
+   "disallowEmptyBlocks": true,
+   "disallowKeywordsOnNewLine": ["else"],
+   "disallowMixedSpacesAndTabs": true,
+   "disallowMultipleLineBreaks": true,
+   "disallowMultipleVarDecl": true,
+   "disallowNewlineBeforeBlockStatements": ["if", "else", "for"],
+   "disallowSpaceBeforeSemicolon": true,
+   "disallowTrailingComma": true,
+   "disallowTrailingWhitespace": true,
+   "maximumLineLength": 100,
+   "requireCapitalizedConstructorsNew": true,
+   "requireCommaBeforeLineBreak": true,
+
+   "requireCurlyBraces": [
+    "if",
+    "else",
+    "for",
+    "while",
+    "do",
+    "try",
+    "catch",
+    "case",
+    "default"
+],
+
+"requireDollarBeforejQueryAssignment": true,
+"requireNewlineBeforeSingleStatementsInIf": true,
+
+"requireOperatorBeforeLineBreak": [
+    "?",
+    "=",
+    "+",
+    "-",
+    "/",
+    "*",
+    "==",
+    "===",
+    "!=",
+    "!==",
+    ">",
+    ">=",
+    "<",
+    "<="
+],
+
+"requireSpaceBeforeBlockStatements": 1,
+
+"validateQuoteMarks": "'",
+"disallowSpacesInsideArrayBrackets": "all"
+
+}

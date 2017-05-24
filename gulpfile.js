@@ -6,18 +6,30 @@ var sass = require('gulp-sass');
 var concat = require('gulp-concat');
 var css = require('gulp-css');
 
- 
+gulp.task('syntax', function() {
+  return gulp
+    .src([
+      './app/appname/*.js',
+      './app/appname/features/**/*.js',
+      './app/appname/libraries/*.js',
+      './app/appname/services/*.js',
+      './*.js'
+    ])
+        .pipe(jscs())
+        .pipe(jscs.reporter());
+});
+
 gulp.task('index', function () {
   var target = gulp.src('./app/index.html');
   var sources = gulp.src(['./app/**/*.js', './app/**/*.css'], {read: false},{relative: true});
- 
-  return 
-  	target
-  		.pipe(inject(sources))
-    	.pipe(gulp.dest('./app'));
+
+  return
+    target
+      .pipe(inject(sources))
+      .pipe(gulp.dest('./app'));
 });
 
-gulp.task('sass', function(){
+gulp.task('sass', function() {
     return gulp
         .src('app/schedulingTools/layout/assets/style/scss/style.scss')
         .pipe(sass())

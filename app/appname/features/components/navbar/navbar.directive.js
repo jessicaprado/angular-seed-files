@@ -6,7 +6,7 @@ function Navbar() {
     return {
         restrict: 'E',
         scope: {
-            navbarData: "="
+            navbarData: '='
         },
         templateUrl: '/appname/features/components/navbar/navbar.html',
         controller: NavbarCtrl,
